@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="responsive" lang="en">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#171a21" name="theme-color"/>
+  <title>
+   Steam Search
+  </title>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://store.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=Rc2hpzg2Ex3T&amp;l=english" rel="stylesheet" type="text/css"/>      
+  <link href="https://store.akamai.steamstatic.com/public/shared/css/shared_global.css?v=DNyAHkw02IjI&amp;l=english" rel="stylesheet" type="text/css"/>    
+  <link href="https://store.akamai.steamstatic.com/public/shared/css/buttons.css?v=6PFqex5UPprb&amp;l=english" rel="stylesheet" type="text/css"/>
+  <link href="https://store.akamai.steamstatic.com/public/css/v6/store.css?v=af4GoQWbK5yr&amp;l=english" rel="stylesheet" type="text/css"/>
+  <link href="https://store.akamai.steamstatic.com/public/css/v6/browse.css?v=7hoqLVcZ7KVq&amp;l=english" rel="stylesheet" type="text/css"/>
+  <link href="https://store.akamai.steamstatic.com/public/css/v6/search.css?v=7wOcDLyifOOX&amp;l=english" rel="stylesheet" type="text/css"/>
+  <link href="https://store.akamai.steamstatic.com/public/shared/css/shared_responsive.css?v=3g6jkueAuNYU&amp;l=english" rel="stylesheet" type="text/css"/>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                                                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                                ga('create', 'UA-33786258-1', 'auto', {
+                                        'sampleRate': 0.4                               });
+                                ga('set', 'dimension1', false );
+                                ga('set', 'dimension2', 'External' );
+                                ga('set', 'dimension3', 'search' );
+                                ga('set', 'dimension4', "search\/search" );
+                                ga('send', 'pageview' );
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=.TZ2NKhB-nliU" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   $J = jQuery.noConflict();
+  </script>
+  <script type="text/javascript">
+   VALVE_PUBLIC_PATH = "https:\/\/store.akamai.steamstatic.com\/public\/";
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/shared/javascript/tooltip.js?v=.9Z1XDV02xrml" type="text/javascript">
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/shared/javascript/shared_global.js?v=xkJcPulsx0-T&amp;l=english" type="text/javascript">
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/main.js?v=KMNUlsnxWi45&amp;l=english" type="text/javascript">
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/dynamicstore.js?v=JV4Drj9y8al3&amp;l=english" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   var __PrototypePreserve=[];
+        __PrototypePreserve[0] = Array.from;
+        __PrototypePreserve[1] = Function.prototype.bind;
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/prototype-1.7.js?v=.a38iP7Khdmyy" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   Array.from = __PrototypePreserve[0] || Array.from;
+        Function.prototype.bind = __PrototypePreserve[1] || Function.prototype.bind;
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=Me1IBxzktiwk&amp;l=english&amp;load=effects,controls,slider" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('DOMContentLoaded', function(event) {
+                                $J.data( document, 'x_readytime', new Date().getTime() );
+                                $J.data( document, 'x_oldref', GetNavCookie() );
+                                SetupTooltips( { tooltipCSSClass: 'store_tooltip'} );
+                });
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/dselect.js?v=WptLSjNFb9fP&amp;l=english" type="text/javascript">
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/searchpage.js?v=sYXUgpNP3ajh&amp;l=english" type="text/javascript">
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/javascript/jquery.filter.js?v=.1afC7xudQcY4" type="text/javascript">
+  </script>
+  <script src="https://store.akamai.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=RkbcHQD4wqg6&amp;l=english" type="text/javascript">
+  </script>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@steam" name="twitter:site"/>
+  <meta content="Steam Search" property="og:title"/>
+  <meta content="Steam Search" property="twitter:title"/>
+  <meta content="website" property="og:type"/>
+  <meta content="105386699540688" property="fb:app_id"/>
+  <meta content="Steam" property="og:site"/>
+  <link href="https://store.akamai.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" rel="image_src"/>
+  <meta content="https://store.akamai.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" property="og:image"/>
+  <meta content="https://store.akamai.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" name="twitter:image"/>
+  <meta content="https://store.akamai.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" property="og:image:secure"/>
+ </head>
+ <body class="v6 search_page responsive_page">
+  <div class="responsive_page_frame with_header">
+   <div class="responsive_page_menu_ctn mainmenu">
+    <div class="responsive_page_menu" id="responsive_page_menu">
+     <div class="mainmenu_contents">
+      <div class="mainmenu_contents_items">
+       <a class="menuitem" href="https://store.steampowered.com/login/?redir=search%2F%3Ffilter%3Dtopsellers&amp;redir_ssl=1&amp;snr=1_7_7_7000_global-header">
+        Login
+       </a>
+       <a class="menuitem supernav" data-tooltip-content=".submenu_store" data-tooltip-type="selector" href="https://store.steampowered.com/?snr=1_7_7_7000_global-responsive-menu">
+        Store
+       </a>
+       <div class="submenu_store" data-submenuid="store" style="display: none;">
+        <a class="submenuitem" href="https://store.steampowered.com/?snr=1_7_7_7000_global-responsive-menu">
+         Home
+        </a>
+        <a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_7_7_7000_global-responsive-menu">
+         Discovery Queue
+        </a>
+        <a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">
+         Wishlist
+        </a>
+        <a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_7_7_7000_global-responsive-menu">
+         Points Shop
+        </a>
+        <a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_7_7_7000_global-responsive-menu">
+         News
+        </a>
+        <a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_7_7_7000_global-responsive-menu">
+         Stats
+        </a>
+       </div>
+       <a class="menuitem supernav" data-tooltip-content=".submenu_community" data-tooltip-type="selector" href="https://steamcommunity.com/" style="display: block">       
+        Community
+       </a>
+       <div class="submenu_community" data-submenuid="community" style="display: none;">
+        <a class="submenuitem" href="https://steamcommunity.com/">
+         Home
+        </a>
+        <a class="submenuitem" href="https://steamcommunity.com/discussions/">
+         Discussions
+        </a>
+        <a class="submenuitem" href="https://steamcommunity.com/workshop/">
+         Workshop
+        </a>
+        <a class="submenuitem" href="https://steamcommunity.com/market/">
+         Market
+        </a>
+        <a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+         Broadcasts
+        </a>
+       </div>
+       <a class="menuitem" href="https://help.steampowered.com/en/">
+        Support
+       </a>
+       <div class="minor_menu_items">
+        <div class="menuitem change_language_action">
+         Change language
+        </div>
+        <div class="menuitem" onclick="Responsive_RequestDesktopView();">
+         View desktop website
+        </div>
+       </div>
+      </div>
+      <div class="mainmenu_footer_spacer">
+      </div>
+      <div class="mainmenu_footer">
+       <div class="mainmenu_footer_logo">
+        <img src="https://store.akamai.steamstatic.com/public/shared/images/responsive/logo_valve_footer.png"/>
+       </div>
+       © Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+       <span class="mainmenu_valve_links">
+        <a href="https://store.steampowered.com/privacy_agreement/?snr=1_7_7_7000_global-responsive-menu" target="_blank">
+         Privacy Policy
+        </a>
+        |
+        <a href="http://www.valvesoftware.com/legal.htm" target="_blank">
+         Legal
+        </a>
+        |
+        <a href="https://store.steampowered.com/subscriber_agreement/?snr=1_7_7_7000_global-responsive-menu" target="_blank">
+         Steam Subscriber Agreement
+        </a>
+        |
+        <a href="https://store.steampowered.com/steam_refunds/?snr=1_7_7_7000_global-responsive-menu" target="_blank">
+         Refunds
+        </a>
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="responsive_local_menu_tab">
+   </div>
+   <div class="responsive_page_menu_ctn localmenu">
+    <div class="responsive_page_menu" id="responsive_page_local_menu">
+     <div class="localmenu_content">
+     </div>
+    </div>
+   </div>
+   <div class="responsive_header">
+    <div class="responsive_header_content">
+     <div id="responsive_menu_logo">
+      <img height="100%" src="https://store.akamai.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png"/>
+     </div>
+     <div class="responsive_header_logo">
+      <a href="https://store.steampowered.com/?snr=1_7_7_7000_global-responsive-menu">
+       <img alt="STEAM" border="0" height="36" src="https://store.akamai.steamstatic.com/public/shared/images/responsive/header_logo.png"/>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="responsive_page_content_overlay">
+   </div>
+   <div class="responsive_fixonscroll_ctn nonresponsive_hidden">
+   </div>
+   <div class="responsive_page_content">
+    <div data-panel='{"flow-children":"row"}' id="global_header">
+     <div class="content">
+      <div class="logo">
+       <span id="logo_holder">
+        <a href="https://store.steampowered.com/?snr=1_7_7_7000_global-header">
+         <img height="44" src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176"/>
+        </a>
+       </span>

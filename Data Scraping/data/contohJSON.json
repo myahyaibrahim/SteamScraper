@@ -1,0 +1,14 @@
+{
+  "Dic": [
+    {
+      "title": "title",
+      "price": "price",
+      "discprice": "discprice"
+    },
+    {
+      "title": "title2",
+      "price": "price2",
+      "discprice": "discprice2"
+    }
+  ]
+}

@@ -1,0 +1,1159 @@
+{
+  "GamesData": [
+    {
+      "game_title": "Apex Legends\u2122",
+      "release_date": "2020-11-04",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "89",
+      "total_user_reviews": "260224",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1172470/Apex_Legends/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Free to Play"
+      ],
+      "game_developer": [
+        "Respawn Entertainment"
+      ]
+    },
+    {
+      "game_title": "Counter-Strike: Global Offensive",
+      "release_date": "2012-08-21",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "88",
+      "total_user_reviews": "5716821",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play"
+      ],
+      "game_developer": [
+        "Valve",
+        "Hidden Path Entertainment"
+      ]
+    },
+    {
+      "game_title": "PUBG: BATTLEGROUNDS",
+      "release_date": "2017-12-21",
+      "original_price": "219999",
+      "disc_price": "219999",
+      "gaming_rating": "Mixed",
+      "game_rating_percentage": "53",
+      "total_user_reviews": "1468665",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "game_developer": [
+        "KRAFTON, Inc."
+      ]
+    },
+    {
+      "game_title": "F1\u00ae 2021",
+      "release_date": "2021-07-15",
+      "original_price": "699000",
+      "disc_price": "699000",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "87",
+      "total_user_reviews": "370",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1134570/F1_2021/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Racing",
+        "Simulation",
+        "Sports"
+      ],
+      "game_developer": [
+        "Codemasters"
+      ]
+    },
+    {
+      "game_title": "Dota 2",
+      "release_date": "2013-07-09",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "84",
+      "total_user_reviews": "1529438",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/570/Dota_2/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play",
+        "Strategy"
+      ],
+      "game_developer": [
+        "Valve"
+      ]
+    },
+    {
+      "game_title": "New World",
+      "release_date": "2021-08-31",
+      "original_price": "249999",
+      "disc_price": "249999",
+      "gaming_rating": null,
+      "game_rating_percentage": null,
+      "total_user_reviews": null,
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1063730/New_World/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "Amazon Games"
+      ]
+    },
+    {
+      "game_title": "Monster Hunter Stories 2: Wings of Ruin",
+      "release_date": "2021-07-08",
+      "original_price": "847999",
+      "disc_price": "847999",
+      "gaming_rating": "Mostly Positive",
+      "game_rating_percentage": "77",
+      "total_user_reviews": "3900",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1277400/Monster_Hunter_Stories_2_Wings_of_Ruin/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "game_developer": [
+        "CAPCOM Co., Ltd."
+      ]
+    },
+    {
+      "game_title": "Red Dead Redemption 2",
+      "release_date": "2019-12-05",
+      "original_price": "640000",
+      "disc_price": "428800",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "85",
+      "total_user_reviews": "170130",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure"
+      ],
+      "game_developer": [
+        "Rockstar Games"
+      ]
+    },
+    {
+      "game_title": "Rust",
+      "release_date": "2018-02-08",
+      "original_price": "169999",
+      "disc_price": "169999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "86",
+      "total_user_reviews": "513367",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/252490/Rust/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "Facepunch Studios"
+      ]
+    },
+    {
+      "game_title": "Ghost Hunters Corp",
+      "release_date": "2021-07-15",
+      "original_price": "104999",
+      "disc_price": "104999",
+      "gaming_rating": "Mixed",
+      "game_rating_percentage": "52",
+      "total_user_reviews": "112",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1618540/Ghost_Hunters_Corp/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "game_developer": [
+        "StudioGoupil"
+      ]
+    },
+    {
+      "game_title": "Halo: The Master Chief Collection",
+      "release_date": "2019-12-03",
+      "original_price": "169999",
+      "disc_price": "84999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "92",
+      "total_user_reviews": "145846",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action"
+      ],
+      "game_developer": [
+        "343 Industries",
+        "Splash Damage",
+        "Ruffian Games",
+        "Bungie",
+        "Saber Interactive"
+      ]
+    },
+    {
+      "game_title": "Dead by Daylight",
+      "release_date": "2016-06-14",
+      "original_price": "135999",
+      "disc_price": "135999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "82",
+      "total_user_reviews": "353186",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/381210/Dead_by_Daylight/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action"
+      ],
+      "game_developer": [
+        "Behaviour Interactive Inc."
+      ]
+    },
+    {
+      "game_title": "Warframe",
+      "release_date": "2013-03-25",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "91",
+      "total_user_reviews": "433049",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/230410/Warframe/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play"
+      ],
+      "game_developer": [
+        "Digital Extremes"
+      ]
+    },
+    {
+      "game_title": "Total War: WARHAMMER II",
+      "release_date": "2017-09-28",
+      "original_price": "540999",
+      "disc_price": "540999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "93",
+      "total_user_reviews": "64420",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/594570/Total_War_WARHAMMER_II/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Strategy"
+      ],
+      "game_developer": [
+        "CREATIVE ASSEMBLY",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ]
+    },
+    {
+      "game_title": "Grand Theft Auto V",
+      "release_date": "2015-04-13",
+      "original_price": null,
+      "disc_price": null,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "83",
+      "total_user_reviews": "1020610",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure"
+      ],
+      "game_developer": [
+        "Rockstar North"
+      ]
+    },
+    {
+      "game_title": "Sid Meier\u2019s Civilization\u00ae VI",
+      "release_date": "2016-010-20",
+      "original_price": "600000",
+      "disc_price": "150000",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "82",
+      "total_user_reviews": "117826",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Strategy"
+      ],
+      "game_developer": [
+        "Firaxis Games",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ]
+    },
+    {
+      "game_title": "Swords of Legends Online",
+      "release_date": "2021-07-09",
+      "original_price": "600000",
+      "disc_price": "600000",
+      "gaming_rating": "Mostly Positive",
+      "game_rating_percentage": "76",
+      "total_user_reviews": "1732",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1418100/Swords_of_Legends_Online/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "Wangyuan Shengtang Entertainment Technology CO.",
+        "\u4e0a\u6d77\u70db\u9f99\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8"
+      ]
+    },
+    {
+      "game_title": "Destiny 2",
+      "release_date": "2019-010-01",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "84",
+      "total_user_reviews": "380964",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1085660/Destiny_2/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Free to Play"
+      ],
+      "game_developer": [
+        "Bungie"
+      ]
+    },
+    {
+      "game_title": "Total War: WARHAMMER II - The Silence & The Fury",
+      "release_date": "2021-07-14",
+      "original_price": "89999",
+      "disc_price": "89999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "82",
+      "total_user_reviews": "403",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1556110/Total_War_WARHAMMER_II__The_Silence__The_Fury/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Strategy"
+      ],
+      "game_developer": [
+        "CREATIVE ASSEMBLY",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ]
+    },
+    {
+      "game_title": "Phantasy Star Online 2 New Genesis",
+      "release_date": "2020-08-05",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Mostly Positive",
+      "game_rating_percentage": "76",
+      "total_user_reviews": "15756",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1056640/Phantasy_Star_Online_2_New_Genesis/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "SEGA"
+      ]
+    },
+    {
+      "game_title": "She Will Punish Them",
+      "release_date": "2020-04-29",
+      "original_price": "99999",
+      "disc_price": "59999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "92",
+      "total_user_reviews": "8930",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1213740/She_Will_Punish_Them/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Early Access"
+      ],
+      "game_developer": [
+        "L2 Games"
+      ]
+    },
+    {
+      "game_title": "The Elder Scrolls\u00ae Online",
+      "release_date": null,
+      "original_price": "266000",
+      "disc_price": "266000",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "83",
+      "total_user_reviews": "84269",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/306130/The_Elder_Scrolls_Online/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "Zenimax Online Studios"
+      ]
+    },
+    {
+      "game_title": "The Immortal Mayor",
+      "release_date": "2021-07-14",
+      "original_price": "108999",
+      "disc_price": "92649",
+      "gaming_rating": "Mixed",
+      "game_rating_percentage": "69",
+      "total_user_reviews": "309",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1426730/The_Immortal_Mayor/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "game_developer": [
+        "Star Chess Studio"
+      ]
+    },
+    {
+      "game_title": "Sea of Thieves",
+      "release_date": "2020-06-03",
+      "original_price": "169999",
+      "disc_price": "169999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "90",
+      "total_user_reviews": "128089",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1172620/Sea_of_Thieves/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure"
+      ],
+      "game_developer": [
+        "Rare Ltd"
+      ]
+    },
+    {
+      "game_title": "Tom Clancy's Rainbow Six\u00ae Siege",
+      "release_date": "2015-12-01",
+      "original_price": "205000",
+      "disc_price": "205000",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "88",
+      "total_user_reviews": "792951",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action"
+      ],
+      "game_developer": [
+        "Ubisoft Montreal"
+      ]
+    },
+    {
+      "game_title": "Euro Truck Simulator 2",
+      "release_date": "2012-010-12",
+      "original_price": "169999",
+      "disc_price": "42499",
+      "gaming_rating": "Overwhelmingly Positive",
+      "game_rating_percentage": "97",
+      "total_user_reviews": "337017",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "game_developer": [
+        "SCS Software"
+      ]
+    },
+    {
+      "game_title": "DEATH STRANDING",
+      "release_date": "2020-07-14",
+      "original_price": "829000",
+      "disc_price": "331600",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "93",
+      "total_user_reviews": "36989",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1190460/DEATH_STRANDING/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure"
+      ],
+      "game_developer": [
+        "KOJIMA PRODUCTIONS"
+      ]
+    },
+    {
+      "game_title": "Streets of Rage 4",
+      "release_date": "2020-04-30",
+      "original_price": "119999",
+      "disc_price": "71999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "92",
+      "total_user_reviews": "10235",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/985890/Streets_of_Rage_4/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Indie"
+      ],
+      "game_developer": [
+        "Dotemu",
+        "Guard Crush",
+        "Lizardcube"
+      ]
+    },
+    {
+      "game_title": "PICO PARK",
+      "release_date": null,
+      "original_price": "39999",
+      "disc_price": "39999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "87",
+      "total_user_reviews": "358",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1509960/PICO_PARK/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "game_developer": [
+        "TECOPARK"
+      ]
+    },
+    {
+      "game_title": "Black Desert",
+      "release_date": "2019-09-17",
+      "original_price": "48999",
+      "disc_price": "48999",
+      "gaming_rating": "Mostly Positive",
+      "game_rating_percentage": "76",
+      "total_user_reviews": "33771",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/582660/Black_Desert/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "game_developer": [
+        "Pearl Abyss"
+      ]
+    },
+    {
+      "game_title": "War Thunder",
+      "release_date": "2013-08-15",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Mostly Positive",
+      "game_rating_percentage": "79",
+      "total_user_reviews": "234621",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": true,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/236390/War_Thunder/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play",
+        "Massively Multiplayer",
+        "Simulation"
+      ],
+      "game_developer": [
+        "Gaijin Entertainment"
+      ]
+    },
+    {
+      "game_title": "Maneater",
+      "release_date": null,
+      "original_price": "169999",
+      "disc_price": "101999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "89",
+      "total_user_reviews": "2597",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/629820/Maneater/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "game_developer": [
+        "Tripwire Interactive"
+      ]
+    },
+    {
+      "game_title": "SMITE\u00ae",
+      "release_date": "2015-09-08",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "80",
+      "total_user_reviews": "87109",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/386360/SMITE/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play"
+      ],
+      "game_developer": [
+        "Titan Forge Games"
+      ]
+    },
+    {
+      "game_title": "PowerWash Simulator",
+      "release_date": null,
+      "original_price": "108999",
+      "disc_price": "108999",
+      "gaming_rating": "Overwhelmingly Positive",
+      "game_rating_percentage": "96",
+      "total_user_reviews": "4119",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "game_developer": [
+        "FuturLab"
+      ]
+    },
+    {
+      "game_title": "Streets Of Rage 4 - Mr. X Nightmare",
+      "release_date": "2021-07-15",
+      "original_price": "59999",
+      "disc_price": "50999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "94",
+      "total_user_reviews": "159",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1585820/Streets_Of_Rage_4__Mr_X_Nightmare/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Indie"
+      ],
+      "game_developer": [
+        "Dotemu",
+        "Guard Crush",
+        "Lizardcube"
+      ]
+    },
+    {
+      "game_title": "World of Warships",
+      "release_date": "2017-11-15",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "81",
+      "total_user_reviews": "82384",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/552990/World_of_Warships/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play",
+        "Massively Multiplayer",
+        "Simulation"
+      ],
+      "game_developer": [
+        "Wargaming Group Limited"
+      ]
+    },
+    {
+      "game_title": "Super Robot Wars 30",
+      "release_date": "2021-010-27",
+      "original_price": "679000",
+      "disc_price": "679000",
+      "gaming_rating": null,
+      "game_rating_percentage": null,
+      "total_user_reviews": null,
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/898750/Super_Robot_Wars_30/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "game_developer": [
+        "B.B.STUDIO CO.,LTD."
+      ]
+    },
+    {
+      "game_title": "Team Fortress 2",
+      "release_date": "2007-010-10",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "93",
+      "total_user_reviews": "793780",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/440/Team_Fortress_2/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Free to Play"
+      ],
+      "game_developer": [
+        "Valve"
+      ]
+    },
+    {
+      "game_title": "Phasmophobia",
+      "release_date": "2020-09-18",
+      "original_price": "89999",
+      "disc_price": "89999",
+      "gaming_rating": "Overwhelmingly Positive",
+      "game_rating_percentage": "97",
+      "total_user_reviews": "238804",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": true,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/739630/Phasmophobia/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Indie",
+        "Early Access"
+      ],
+      "game_developer": [
+        "Kinetic Games"
+      ]
+    },
+    {
+      "game_title": "The Sims\u2122 4",
+      "release_date": "2020-06-18",
+      "original_price": "562000",
+      "disc_price": "562000",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "90",
+      "total_user_reviews": "23254",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1222670/The_Sims_4/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Casual",
+        "Simulation"
+      ],
+      "game_developer": [
+        "Maxis"
+      ]
+    },
+    {
+      "game_title": "Yu-Gi-Oh! Duel Links",
+      "release_date": "2017-11-16",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "84",
+      "total_user_reviews": "31272",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/601510/YuGiOh_Duel_Links/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Free to Play",
+        "Strategy"
+      ],
+      "game_developer": [
+        "Konami Digital Entertainment"
+      ]
+    },
+    {
+      "game_title": "Battlefield\u2122 2042",
+      "release_date": "2021-010-22",
+      "original_price": "659000",
+      "disc_price": "659000",
+      "gaming_rating": null,
+      "game_rating_percentage": null,
+      "total_user_reviews": null,
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1517290/Battlefield_2042/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Casual"
+      ],
+      "game_developer": [
+        "DICE"
+      ]
+    },
+    {
+      "game_title": "ARK: Survival Evolved",
+      "release_date": "2017-08-27",
+      "original_price": "139999",
+      "disc_price": "139999",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "80",
+      "total_user_reviews": "357505",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/346110/ARK_Survival_Evolved/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "Studio Wildcard",
+        "Instinct Games",
+        "Efecto Studios",
+        "Virtual Basement LLC"
+      ]
+    },
+    {
+      "game_title": "Wallpaper Engine",
+      "release_date": null,
+      "original_price": "35999",
+      "disc_price": "35999",
+      "gaming_rating": "Overwhelmingly Positive",
+      "game_rating_percentage": "97",
+      "total_user_reviews": "346874",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/431960/Wallpaper_Engine/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Casual",
+        "Indie",
+        "Animation & Modeling",
+        "Design & Illustration",
+        "Photo Editing",
+        "Utilities"
+      ],
+      "game_developer": [
+        "Wallpaper Engine Team"
+      ]
+    },
+    {
+      "game_title": "American Truck Simulator",
+      "release_date": "2016-02-02",
+      "original_price": "229999",
+      "disc_price": "57499",
+      "gaming_rating": "Overwhelmingly Positive",
+      "game_rating_percentage": "96",
+      "total_user_reviews": "67258",
+      "win_compatibility": true,
+      "mac_compatibility": true,
+      "linux_compatibility": true,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/270880/American_Truck_Simulator/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "game_developer": [
+        "SCS Software"
+      ]
+    },
+    {
+      "game_title": "GUILTY GEAR -STRIVE-",
+      "release_date": "2021-06-11",
+      "original_price": "749000",
+      "disc_price": "749000",
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "90",
+      "total_user_reviews": "8617",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1384160/GUILTY_GEAR_STRIVE/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action"
+      ],
+      "game_developer": [
+        "Arc System Works"
+      ]
+    },
+    {
+      "game_title": "NARAKA: BLADEPOINT",
+      "release_date": "2021-08-12",
+      "original_price": "220000",
+      "disc_price": "220000",
+      "gaming_rating": null,
+      "game_rating_percentage": null,
+      "total_user_reviews": null,
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "game_developer": [
+        "24 Entertainment"
+      ]
+    },
+    {
+      "game_title": "NBA 2K21",
+      "release_date": "2020-09-03",
+      "original_price": "699000",
+      "disc_price": "230670",
+      "gaming_rating": "Mixed",
+      "game_rating_percentage": "41",
+      "total_user_reviews": "24655",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1225330/NBA_2K21/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Simulation",
+        "Sports"
+      ],
+      "game_developer": [
+        "Visual Concepts"
+      ]
+    },
+    {
+      "game_title": "STAR WARS\u2122: The Old Republic\u2122",
+      "release_date": "2020-07-21",
+      "original_price": 0,
+      "disc_price": 0,
+      "gaming_rating": "Very Positive",
+      "game_rating_percentage": "90",
+      "total_user_reviews": "27536",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1286830/STAR_WARS_The_Old_Republic/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Free to Play",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "game_developer": [
+        "BioWare"
+      ]
+    },
+    {
+      "game_title": "It Takes Two",
+      "release_date": "2021-03-25",
+      "original_price": "562000",
+      "disc_price": "562000",
+      "gaming_rating": "Overwhelmingly Positive",
+      "game_rating_percentage": "95",
+      "total_user_reviews": "32257",
+      "win_compatibility": true,
+      "mac_compatibility": false,
+      "linux_compatibility": false,
+      "vr_compatibility": false,
+      "vr_only": false,
+      "game_URL": "https://store.steampowered.com/app/1426210/It_Takes_Two/?snr=1_7_7_7000_150_1",
+      "game_genres": [
+        "Action",
+        "Adventure"
+      ],
+      "game_developer": [
+        "Hazelight"
+      ]
+    }
+  ]
+}
