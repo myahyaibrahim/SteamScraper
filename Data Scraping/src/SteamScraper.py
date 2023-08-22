@@ -10,22 +10,26 @@ def makeJSON(targetDirectory, accessMode, dictionary, indent):
     with open(os.path.dirname(__file__) + targetDirectory, accessMode) as f:
         json.dump(dictionary, f, indent=indent)
 
-
-gameList, genreList = SteamScraperEngine.SteamScraperMain(url, urlGenre)
+print("######## Scraping Data is Running ATM.... ########")
+gameList, genreList, gameDevList = SteamScraperEngine.SteamScraperMain(url, urlGenre)
 # Creating dictionary that contains list of games
 # That's been successfully scraped 
 GameDictionary = {
     "GamesData" : gameList,
 }
+
+print("######## Creating JSON files ATM.... ########")
 # Converting from python dictionary to JSON object
 # Creating external JSON file
 makeJSON('/../data/SteamGame.json', 'w', GameDictionary, 2)
 
-# Creating dictionary that contains list of gemres
+# Creating dictionary that contains list of gemes
 # That's been successfully scraped 
-GenreDictionary = {
+GenreDeveloperDictionary = {
     "GenreData" : genreList,
+    "DeveloperData" : gameDevList
 }
 # Converting from python dictionary to JSON object
 # Creating external JSON file
-makeJSON('/../data/SteamGenre.json', 'w', GenreDictionary, 2)
+makeJSON('/../data/SteamGenreDeveloper.json', 'w', GenreDeveloperDictionary, 2)
+print("######## JSON Files has been cretead successfully.... ########")

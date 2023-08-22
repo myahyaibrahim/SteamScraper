@@ -1,0 +1,104 @@
+Queries to build a database for storing data got from scraping from steam
+
+############# CREATING NEW DATABASE #############
+
+CREATE DATABASE steamscrape ;
+
+#################################################
+
+############## CREATING NEW TABLES ##############
+
+CREATE TABLE IF NOT EXISTS game_information (
+    id_game INT,
+    game_name VARCHAR(255) NOT NULL,
+    release_date DATE,
+    game_URL VARCHAR(255),
+    PRIMARY KEY (id_game)
+) ;
+
+CREATE TABLE IF NOT EXISTS rating (
+    id_game INT,
+    game_rating VARCHAR(255),
+    rating_percentage INT,
+    total_review INT,
+    PRIMARY KEY (id_game),
+    CONSTRAINT FK_rating_gameinformation
+    FOREIGN KEY (id_game) REFERENCES game_information(id_game)
+    ON UPDATE CASCADE ON DELETE CASCADE
+) ;
+
+CREATE TABLE IF NOT EXISTS price (
+    id_game INT,
+    original_price INT,
+    discount_price INT,
+    PRIMARY KEY (id_game),
+    CONSTRAINT FK_price_gameinformation
+    FOREIGN KEY (id_game) REFERENCES game_information(id_game)
+    ON UPDATE CASCADE ON DELETE CASCADE
+) ;
+
+CREATE TABLE IF NOT EXISTS genre (
+    id_genre VARCHAR(100),
+    genre_name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id_genre)
+) ;
+
+CREATE TABLE IF NOT EXISTS game_genre (
+    id_game INT,
+    id_genre VARCHAR(100),
+    PRIMARY KEY (id_game, id_genre),
+    CONSTRAINT FK_gamegenre_genre
+    FOREIGN KEY (id_genre) REFERENCES genre(id_genre)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+    CONSTRAINT FK_gamegenre_gameinformation
+    FOREIGN KEY (id_game) REFERENCES game_information(id_game)
+    ON UPDATE CASCADE ON DELETE CASCADE
+) ;
+
+CREATE TABLE IF NOT EXISTS compatibility (
+    id_compatibility VARCHAR(100),
+    platform_name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id_compatibility)
+) ;
+
+CREATE TABLE IF NOT EXISTS game_compatibility (
+    id_game INT,
+    id_compatibility VARCHAR(199),
+    PRIMARY KEY (id_game, id_compatibility),
+    CONSTRAINT FK_gamecompatibility_compatibility
+    FOREIGN KEY (id_compatibility) REFERENCES compatibility(id_compatibility)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+    CONSTRAINT FK_gamecompatibility_gameinformation
+    FOREIGN KEY (id_game) REFERENCES game_information(id_game)
+    ON UPDATE CASCADE ON DELETE CASCADE
+) ;
+
+CREATE TABLE IF NOT EXISTS developer (
+    id_developer VARCHAR (100),
+    developer_name  VARCHAR(255),
+    PRIMARY KEY (id_developer)
+) ;
+
+CREATE TABLE IF NOT EXISTS game_developer (
+    id_game INT,
+    id_developer VARCHAR (100),
+    PRIMARY KEY (id_game, id_developer),
+    CONSTRAINT FK_gamedeveloper_developer
+    FOREIGN KEY (id_developer) REFERENCES developer(id_developer)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+    CONSTRAINT FK_gamedeveloper_gameinformation
+    FOREIGN KEY (id_game) REFERENCES game_information(id_game)
+    ON UPDATE CASCADE ON DELETE CASCADE
+) ;
+
+#################################################
+
+#### Changing encoding from utf8 to utf8mb4 #####
+
+ALTER TABLE developer MODIFY COLUMN developer_name VARCHAR(255)  
+    CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL ;
+
+ALTER TABLE game_information MODIFY COLUMN game_name VARCHAR(255)  
+    CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL ;
+
+#################################################

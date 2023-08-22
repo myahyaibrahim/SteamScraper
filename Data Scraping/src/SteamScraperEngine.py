@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from requests.sessions import dispatch_hook
+import time
 
 url ="https://store.steampowered.com/search/results/?query&start=0&count=50&dynamic_data=&force_infinite=1&category1=998%2C994%2C21%2C10%2C997&filter=topsellers&snr=1_7_7_7000_7&infinite=1"
 urlGenre = "https://store.steampowered.com/tag/browse/#global_492"
@@ -55,7 +56,15 @@ def normalizeDatePattern(date):
 
 def requestData(url):
     # Requesting data from given URL
-    source = requests.get(url)
+    headers = {
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+        'referrer': 'https://store.steampowered.com/search/?category1=998,994,21,10,997&filter=topsellers/robots.txt',
+        'Accept': 'text/javascript, text/html, application/xml, text/xml, */*',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'DNT': '1',
+    }
+    source = requests.get(url, headers=headers)
     data = dict(source.json())
     dataResult = data["results_html"]
     return dataResult
@@ -70,8 +79,16 @@ def parseDataGamePage(gameURL):
     gameDevsList = []
     try :
         # Request from URL of specific game
+        headers = {
+            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+            'referrer': 'https://store.steampowered.com/search/?category1=998,994,21,10,997&filter=topsellers/robots.txt',
+            'Accept': 'text/javascript, text/html, application/xml, text/xml, */*',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'DNT': '1',
+        }
         cookies = { 'birthtime': '283993201', 'mature_content': '1' }
-        source = requests.get(gameURL, cookies=cookies).text
+        source = requests.get(gameURL, headers=headers, cookies=cookies).text
         soup = BeautifulSoup(source, 'html5lib')
         # Parsing data that's needed
         ## Finding matching tags
@@ -96,11 +113,13 @@ def parseDataGamePage(gameURL):
     return gameGenreList, gameDevsList
 
 def parseDataSearchPage(dataResult):
+    print("##### Getting All the Games Detail #####")
     # Parsing the data from given data given from requesting data 
     # Return a list of games that's already parsed
     soup = BeautifulSoup(dataResult, 'html5lib')
     games = soup.find_all('a')
     gameList = []
+    gameDevs = []
     for game in games:
         # Getting Game Title
         gameTitle = game.find('span', class_="title").text
@@ -121,7 +140,11 @@ def parseDataSearchPage(dataResult):
         # 2. The price of game after a discount is applied (discPrice)
         # Note : A free game (stated as "Free to play"), will return 0 value for its price
         priceAll = game.find("div", class_="search_price").text.strip() #.replace(" ","")#.split("Rp")
-        if (priceAll == "Free to Play" or priceAll == "Free To Play") :
+        source = priceAll
+        pattern = re.compile(r'.*free.*', re.IGNORECASE)
+        FreeCounter = pattern.findall(source)
+        NFreeCounter = len(FreeCounter)
+        if (priceAll == "Free to Play" or priceAll == "Free To Play" or priceAll=="Free" or NFreeCounter>=1) :
             originalPrice = 0
             discPrice = 0
         elif (priceAll==""):
@@ -129,9 +152,9 @@ def parseDataSearchPage(dataResult):
             discPrice = None
         else :
             priceAll = priceAll.replace(" ","").split("Rp")
-            originalPrice = priceAll[1]
+            originalPrice = int(priceAll[1])
             try:
-                discPrice = priceAll[2]
+                discPrice = int(priceAll[2])
             except Exception as e:
                 discPrice = originalPrice
         print("Original Price : " , originalPrice)
@@ -205,6 +228,7 @@ def parseDataSearchPage(dataResult):
 
         # Game Genre, Developer, Publisher
         gameGenres, gameDeveloper = parseDataGamePage(gameURL)
+        gameDevs.extend(gameDeveloper)
         print("Game Genres : ",gameGenres)
         print("Game Developer : ",gameDeveloper)
 
@@ -227,9 +251,13 @@ def parseDataSearchPage(dataResult):
             'game_developer' : gameDeveloper
         }
         gameList.append(mygame)
-    return gameList
+        time.sleep(1.5)
+    gameDevs = list(set(gameDevs))
+    # print(gameDevs)
+    return gameList, gameDevs
 
 def getGenres(urlGenre):
+    print("\n##### Getting All the Genres #####")
     # Making request to urlGenre
     source = requests.get(urlGenre).text
     soup = BeautifulSoup(source, 'html5lib')
@@ -240,6 +268,7 @@ def getGenres(urlGenre):
     genres = genres.find_all('div', "tag_browse_tag")
     for genre in genres:
         allGenreList.append(genre.text)
+    print("\n######## List of game genre ########")
     print(allGenreList)
     return allGenreList
 
@@ -250,14 +279,27 @@ def getTotalCountGames(url):
     source = requests.get(url)
     data = dict(source.json())
     TotalCountGames = data["total_count"]
+    if (TotalCountGames > 150):
+        TotalCountGames = 150
     return TotalCountGames
 
 def SteamScraperMain(url, urlGenre):
     # Main Function
     # Scraping game data from games listing on steam
-    dataResult = requestData(url)
-    gameList = parseDataSearchPage(dataResult)
+    gameList = []
+    gameDevList = []
+    for i in range (0, getTotalCountGames(url)+1, 50):
+        dataResult = requestData(f'https://store.steampowered.com/search/results/?query&start={i}&count=50&dynamic_data=&force_infinite=1&category1=998%2C994%2C21%2C10%2C997&filter=topsellers&snr=1_7_7_7000_7&infinite=1')
+        gameListTemp, gameDevListTemp = parseDataSearchPage(dataResult)
+        gameList.extend(gameListTemp)
+        gameDevList.extend(gameDevListTemp)
+        gameDevList = list(set(gameDevList))
+    
+    print("\n######## List of game developers ########")
+    print(gameDevList)
+    # Scraping game genre
     genreList = getGenres(urlGenre)
-    return gameList, genreList
+    return gameList, genreList, gameDevList
 
 # SteamScraperMain(url, urlGenre)
+# print(getTotalCountGames(url))
